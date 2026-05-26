@@ -93,8 +93,8 @@ export default function Home() {
             Modern life fragments attention across disconnected systems.
           </p>
           <p className="font-sans text-sm text-brand-subtle leading-relaxed max-w-xl">
-            LucySystems exists to restore coherence — across health, thought,
-            and resources — through architecture that remembers, reflects, and
+            LucySystems exists to restore coherence across health, thought,
+            and resources, through architecture that remembers, reflects, and
             stays out of the way.
           </p>
         </Container>
@@ -166,8 +166,8 @@ export default function Home() {
                 <span className="text-xs text-money-accent tracking-widest uppercase">Money</span>
                 <span className="text-xs text-brand-subtle/50 tracking-widest uppercase">In design</span>
               </div>
-              <h3 className="font-serif text-2xl text-brand-white/30 mb-4 tracking-tight">
-                —
+              <h3 className="font-serif text-2xl text-brand-white/20 mb-4 tracking-tight">
+                ···
               </h3>
               <p className="font-sans text-sm text-brand-subtle leading-relaxed flex-1">
                 Markets, budgeting, net worth, portfolio. Judgment lives in the
