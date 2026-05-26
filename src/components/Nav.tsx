@@ -3,10 +3,10 @@
 import { useEffect, useState } from "react";
 
 const LINKS = [
-  ["Body", "#body"],
-  ["Mind", "#mind"],
-  ["Money", "#money"],
-  ["About", "#about"],
+  ["Body",  "#body",  "bg-body-accent"],
+  ["Mind",  "#mind",  "bg-mind-accent"],
+  ["Money", "#money", "bg-money-accent"],
+  ["About", "#about", ""],
 ] as const;
 
 export default function Nav() {
@@ -36,12 +36,13 @@ export default function Nav() {
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
-          {LINKS.map(([label, href]) => (
+          {LINKS.map(([label, href, dot]) => (
             <a
               key={label}
               href={href}
-              className="text-sm text-brand-white/50 hover:text-brand-white transition-colors duration-200"
+              className="flex items-center gap-1.5 text-sm text-brand-white/50 hover:text-brand-white transition-colors duration-200"
             >
+              {dot && <span className={`w-1 h-1 rounded-full ${dot} opacity-70`} />}
               {label}
             </a>
           ))}
@@ -63,13 +64,14 @@ export default function Nav() {
       {/* Mobile menu */}
       <div className={`md:hidden overflow-hidden transition-all duration-300 ${menuOpen ? "max-h-72" : "max-h-0"} bg-brand-black/95 backdrop-blur-md border-t border-brand-border`}>
         <div className="px-6 py-5 flex flex-col gap-5">
-          {LINKS.map(([label, href]) => (
+          {LINKS.map(([label, href, dot]) => (
             <a
               key={label}
               href={href}
               onClick={closeMenu}
-              className="text-sm text-brand-white/60 hover:text-brand-white transition-colors"
+              className="flex items-center gap-2 text-sm text-brand-white/60 hover:text-brand-white transition-colors"
             >
+              {dot && <span className={`w-1 h-1 rounded-full ${dot} opacity-70`} />}
               {label}
             </a>
           ))}
