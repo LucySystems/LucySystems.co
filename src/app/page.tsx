@@ -124,7 +124,7 @@ export default function Home() {
               </p>
               <div className="flex flex-col gap-3">
                 <a
-                  href="https://apps.apple.com/app/vitalport"
+                  href="https://apps.apple.com/us/app/vitalport/id6764275336"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-xs text-brand-white/70 hover:text-brand-white transition-colors duration-200 tracking-wide"
