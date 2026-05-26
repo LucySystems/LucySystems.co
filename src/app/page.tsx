@@ -304,7 +304,7 @@ export default function Home() {
         <Container>
           <div className="max-w-2xl mb-16">
             <p className="font-sans text-sm text-brand-subtle leading-relaxed">
-              Lucy Systems is led by{" "}
+              LucySystems is led by{" "}
               <span className="text-brand-white font-medium">Jim Martin</span>.
               Building in the open. Reach out if you want to build, contribute,
               or compare notes.
@@ -339,7 +339,7 @@ export default function Home() {
           <hr className="border-brand-border mb-8" />
 
           <p className="font-sans text-xs text-brand-subtle">
-            © 2026 Lucy Systems · lucysystems.co
+            © 2026 LucySystems · lucysystems.co
           </p>
         </Container>
       </footer>

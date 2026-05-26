@@ -15,15 +15,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Lucy Systems",
+  title: "LucySystems",
   description:
     "A personal AI system for people who want to live deliberately. Three domains — Body, Mind, Money — built as one coherent architecture.",
   openGraph: {
-    title: "Lucy Systems",
+    title: "LucySystems",
     description:
       "A personal AI system for people who want to live deliberately.",
     url: "https://lucysystems.co",
-    siteName: "Lucy Systems",
+    siteName: "LucySystems",
     locale: "en_US",
     type: "website",
   },

@@ -28,7 +28,7 @@ export default function Nav() {
           href="#"
           className="font-serif text-xl text-brand-white tracking-tight"
         >
-          Lucy Systems
+          LucySystems
         </a>
 
         {/* Desktop nav */}
