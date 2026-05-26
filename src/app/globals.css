@@ -41,6 +41,19 @@ body {
   background-size: 60px 60px;
 }
 
+/* ── Atmospheric radial — barely perceptible depth behind hero content ──────── */
+.hero-glow::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse 65% 55% at 50% 42%,
+    rgba(245, 244, 240, 0.038) 0%,
+    transparent 68%
+  );
+  pointer-events: none;
+}
+
 /* ── Scroll indicator pulse ─────────────────────────────────────────────────── */
 @keyframes scroll-bounce {
   0%, 100% { transform: translateY(0); opacity: 0.4; }
