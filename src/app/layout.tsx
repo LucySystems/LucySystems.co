@@ -17,11 +17,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "LucySystems",
   description:
-    "Mind. Body. Money. One intelligence layer. Building systems for deliberate living.",
+    "Body. Mind. Money. One intelligence layer. Building systems for deliberate living.",
   openGraph: {
     title: "LucySystems",
     description:
-      "Mind. Body. Money. One intelligence layer.",
+      "Body. Mind. Money. One intelligence layer.",
     url: "https://lucysystems.co",
     siteName: "LucySystems",
     locale: "en_US",
