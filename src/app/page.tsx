@@ -42,7 +42,7 @@ export default function Home() {
             Building systems for deliberate living.
           </h1>
           <p className="font-sans text-base md:text-lg text-brand-subtle max-w-md leading-relaxed mb-12">
-            A personal AI system for people who want to live deliberately.
+            Mind. Body. Money. One intelligence layer.
           </p>
 
           {/* Domain pills */}
