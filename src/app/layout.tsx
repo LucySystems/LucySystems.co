@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Instrument_Serif, Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const instrumentSerif = Instrument_Serif({
@@ -41,6 +42,7 @@ export default function RootLayout({
       <body className="min-h-full font-sans">
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
