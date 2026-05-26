@@ -13,8 +13,8 @@
   --color-brand-subtle: #6b6b6b;
 
   --color-body-accent:  #4ade80;
-  --color-mind-accent:  #a78bfa;
-  --color-money-accent: #fbbf24;
+  --color-mind-accent:  #fbbf24;
+  --color-money-accent: #a78bfa;
 }
 
 @theme inline {

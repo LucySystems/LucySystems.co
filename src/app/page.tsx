@@ -30,23 +30,6 @@ export default function Home() {
             Body. Mind. Money. One intelligence layer.
           </p>
 
-          {/* Domain indicators */}
-          <div className="flex items-center gap-5">
-            <span className="flex items-center gap-1.5 text-xs text-brand-subtle/60 tracking-widest uppercase">
-              <span className="w-1 h-1 rounded-full bg-body-accent" />
-              Body
-            </span>
-            <span className="text-brand-border">·</span>
-            <span className="flex items-center gap-1.5 text-xs text-brand-subtle/60 tracking-widest uppercase">
-              <span className="w-1 h-1 rounded-full bg-mind-accent" />
-              Mind
-            </span>
-            <span className="text-brand-border">·</span>
-            <span className="flex items-center gap-1.5 text-xs text-brand-subtle/60 tracking-widest uppercase">
-              <span className="w-1 h-1 rounded-full bg-money-accent" />
-              Money
-            </span>
-          </div>
         </Container>
 
         {/* Scroll indicator */}
