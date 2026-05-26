@@ -48,14 +48,6 @@ export default function Nav() {
               {label}
             </a>
           ))}
-          <a
-            href="https://vitalport.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-body-accent hover:text-body-accent/70 transition-colors duration-200"
-          >
-            VitalPort ↗
-          </a>
         </div>
 
         {/* Mobile hamburger */}
@@ -106,15 +98,6 @@ export default function Nav() {
               {label}
             </a>
           ))}
-          <a
-            href="https://vitalport.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={closeMenu}
-            className="text-body-accent"
-          >
-            VitalPort ↗
-          </a>
         </div>
       </div>
     </nav>
