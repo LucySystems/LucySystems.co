@@ -39,7 +39,7 @@ export default function Home() {
       <section className="relative min-h-screen bg-brand-black hero-grid flex flex-col justify-center items-center text-center overflow-hidden">
         <Container className="flex flex-col items-center py-32">
           <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl text-brand-white leading-[1.05] tracking-tight mb-6">
-            Building Lucy.
+            Building systems for deliberate living.
           </h1>
           <p className="font-sans text-base md:text-lg text-brand-subtle max-w-md leading-relaxed mb-12">
             A personal AI system for people who want to live deliberately.
