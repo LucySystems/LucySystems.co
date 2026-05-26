@@ -1,26 +1,52 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ── Design tokens ─────────────────────────────────────────────────────────── */
+@theme {
+  --color-brand-black:  #0c0c0c;
+  --color-brand-dark:   #141414;
+  --color-brand-muted:  #1e1e1e;
+  --color-brand-border: #2a2a2a;
+  --color-brand-white:  #f5f4f0;
+  --color-brand-cream:  #eeeae0;
+  --color-brand-text:   #1a1a1a;
+  --color-brand-subtle: #6b6b6b;
+
+  --color-body-accent:  #4ade80;
+  --color-mind-accent:  #a78bfa;
+  --color-money-accent: #fbbf24;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans:  var(--font-inter);
+  --font-serif: var(--font-instrument-serif);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ── Base ───────────────────────────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-white);
+  color: var(--color-brand-text);
+}
+
+/* ── Hero grid (CSS-only, no images) ───────────────────────────────────────── */
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(245, 244, 240, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(245, 244, 240, 0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* ── Scroll indicator pulse ─────────────────────────────────────────────────── */
+@keyframes scroll-bounce {
+  0%, 100% { transform: translateY(0); opacity: 0.4; }
+  50%       { transform: translateY(6px); opacity: 0.9; }
+}
+
+.scroll-indicator {
+  animation: scroll-bounce 2s ease-in-out infinite;
 }
